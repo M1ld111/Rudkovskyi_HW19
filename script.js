@@ -40,7 +40,7 @@ function gradeLabs(array) {
                 // result = 'You are a Titan! Do not cut yourself'
             }
         } catch (error) {
-            console.log(`${element.name}, ERROR! We dont know results!`)
+            console.error(TypeError(`${element.name}, ERROR! We dont know results!`))
             // result = 'ERROR! We dont know results!'
         }
         // console.log(`${element.name}, ${result}`)
